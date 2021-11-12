@@ -1,7 +1,7 @@
 # is_debug 
 The crate by Rust that get build model is debug.
 
-# is_debug function
+### use function
 ```TOML
 [dependencies]
 is_debug = "1"

@@ -20,7 +20,6 @@ impl ToString for BuildModel {
     }
 }
 
-
 pub fn is_debug() -> bool {
     build_channel() == BuildModel::Debug
 }

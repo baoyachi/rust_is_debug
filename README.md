@@ -13,6 +13,6 @@ use is_debug::{is_debug, is_release};
 fn main() {
 	println!("{}", is_debug());
 
-	println!("{}",is_release());
+	println!("{}", is_release());
 }
 ```

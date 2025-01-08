@@ -11,3 +11,6 @@ edition = "2018"
 
 [lib]
 path = "lib.rs"
+
+[dev-dependencies]
+xshell = "0.2.7"

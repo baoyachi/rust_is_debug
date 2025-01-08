@@ -73,6 +73,7 @@ fn main() {
     }
 
     #[test]
+    #[cfg(feature = "no_std")]
     fn test_no_std() {
         let sh = Shell::new().unwrap();
         let repo = "is_debug_no_std";

@@ -44,8 +44,12 @@ jobs:
           target: riscv32imc-unknown-none-elf
           toolchain: stable
           components: rust-src
-      - name: Run tests no_std
-        run: cargo test --features=no_std
+      - name: Run no_std example
+        run: |
+          cargo fmt --all -- --check
+          cargo clippy --release --all -- -D warnings
+          cargo b --release
+        working-directory: ./is_debug_no_std
 
 
 

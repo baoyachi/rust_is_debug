@@ -1,6 +1,6 @@
 [package]
 name = "is_debug"
-version = "1.0.2"
+version = "1.1.0"
 authors = ["baoyachi <liaoymxsdl@gmail.com>"]
 description = "get build model is debug"
 keywords = ["build", "build-model", "model", "debug", "release"]

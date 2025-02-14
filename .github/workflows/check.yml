@@ -47,8 +47,7 @@ jobs:
       - name: Run no_std example
         run: |
           cargo fmt --all -- --check
-          cargo fix
-          cargo clippy --all -- -D warnings
+          cargo clippy --release --all -- -D warnings
           cargo b --release
         working-directory: ./is_debug_no_std
 
